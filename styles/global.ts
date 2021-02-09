@@ -17,8 +17,8 @@ export default createGlobalStyle`
 
     --color-background: #fafafa;
     --color-primary-light: #fff;
-    --color-border: #dbdbdb; 
-    --color-dark: #262626; 
+    --color-border: #dbdbdb;
+    --color-dark: #262626;
     --color-text-light: #8e8e8e;
     --color-text-blue: #0095f6;
   }
