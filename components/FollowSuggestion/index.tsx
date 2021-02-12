@@ -1,3 +1,5 @@
+import FollowUser from '../FollowUser';
+
 import { Container, Header } from './styles';
 
 const FollowSuggestion: React.FC = () => {
@@ -7,6 +9,11 @@ const FollowSuggestion: React.FC = () => {
         <span>Suggestions For You</span>
         <span>See All</span>
       </Header>
+
+      <FollowUser />
+      <FollowUser />
+      <FollowUser />
+      <FollowUser />
     </Container>
   );
 };

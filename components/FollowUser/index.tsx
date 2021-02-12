@@ -8,7 +8,9 @@ const FollowUser: React.FC = () => {
         <span>henriquess</span>
         <span>Followed by nicolas + 1 more</span>
       </div>
-      <button type="button">Follow</button>
+      <button type="button" role="button">
+        Follow
+      </button>
     </Container>
   );
 };
