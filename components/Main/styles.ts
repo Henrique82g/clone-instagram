@@ -9,4 +9,5 @@ export const Wrapper = styled.div`
 export const Container = styled.div`
   display: grid;
   grid-template-columns: 64.4rem 32.1rem;
+  column-gap: 3.3rem;
 `;
