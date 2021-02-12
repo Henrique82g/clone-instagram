@@ -1,7 +1,9 @@
-import { Container } from './styles';
+// import { Container } from './styles';
+
+import StoryContainer from '../StoryContainer';
 
 const Main: React.FC = () => {
-  return <Container></Container>;
+  return <StoryContainer />;
 };
 
 export default Main;
