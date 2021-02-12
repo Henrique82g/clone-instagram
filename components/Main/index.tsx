@@ -1,14 +1,14 @@
 import { Wrapper, Container } from './styles';
 
 import StoryContainer from '../StoryContainer';
-import UserInfo from './components/UserInfo';
+import Sidebar from '../Sidebar';
 
 const Main: React.FC = () => {
   return (
     <Wrapper>
       <Container>
         <StoryContainer />
-        <UserInfo />
+        <Sidebar />
       </Container>
     </Wrapper>
   );
