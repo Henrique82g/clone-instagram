@@ -8,5 +8,5 @@ export const Wrapper = styled.div`
 
 export const Container = styled.div`
   display: grid;
-  grid-template-columns: 64.4rem 1fr;
+  grid-template-columns: 64.4rem 32.1rem;
 `;
