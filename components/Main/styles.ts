@@ -11,7 +11,7 @@ export const Container = styled.section`
   max-width: 96.5rem;
   margin: 0 auto;
   display: flex;
-  flex-direction: row;
+  flex-flow: row nowrap;
   width: 100%;
   justify-content: center;
   position: relative;
