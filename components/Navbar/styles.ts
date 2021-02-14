@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
 
   background: var(--color-primary-light);
   border: 0.1rem solid var(--color-border);
-  margin-bottom: 6rem;
+  margin-bottom: 3rem;
 `;
 
 export const Container = styled.div`
