@@ -7,6 +7,6 @@ export const Container = styled.div`
   margin-left: 2.8rem;
   height: 100vh;
   padding: 0;
-  position: fixed;
+  /* position: fixed; */
   right: 0;
 `;
