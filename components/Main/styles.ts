@@ -14,4 +14,5 @@ export const Container = styled.section`
   flex-direction: row;
   width: 100%;
   justify-content: center;
+  position: relative;
 `;
