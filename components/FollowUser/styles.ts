@@ -45,6 +45,7 @@ export const Container = styled.div`
     font-weight: 600;
     font-size: 1.2rem;
     line-height: 1.4rem;
+    margin-bottom: -2rem;
 
     letter-spacing: -0.165px;
 
