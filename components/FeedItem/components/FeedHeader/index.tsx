@@ -6,12 +6,12 @@ function FeedHeader() {
   return (
     <Container>
       <div className="user-info">
-        <span className="cirlce"></span>
+        <span className="circle"></span>
         <span>henrique</span>
       </div>
 
       <span>
-        <FiMoreHorizontal />
+        <FiMoreHorizontal title="Menu" />
       </span>
     </Container>
   );
