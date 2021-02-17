@@ -1,4 +1,5 @@
 import FeedFooter from './components/FeedFooter';
+import FeedForm from './components/FeedForm';
 import FeedHeader from './components/FeedHeader';
 import FeedImage from './components/FeedImage';
 
@@ -11,6 +12,7 @@ function FeedItem() {
       <FeedImage />
       <FeedFooter />
       <Divider />
+      <FeedForm />
     </Container>
   );
 }
