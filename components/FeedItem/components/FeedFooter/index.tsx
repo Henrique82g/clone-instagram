@@ -6,6 +6,7 @@ function FeedFooter() {
   return (
     <Container>
       <FeedActions />
+      <span className="view-count">200,000 views</span>
     </Container>
   );
 }
