@@ -6,6 +6,12 @@ const StoryContainer: React.FC = () => {
   return (
     <Container>
       <StoryItem />
+      <StoryItem />
+      <StoryItem />
+      <StoryItem />
+      <StoryItem />
+      <StoryItem />
+      <StoryItem />
     </Container>
   );
 };
