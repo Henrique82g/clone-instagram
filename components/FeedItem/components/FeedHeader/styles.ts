@@ -1,11 +1,10 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  /* height: 3rem; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 3.6rem;
+  padding: 1rem 3.6rem;
 
   div {
     display: flex;

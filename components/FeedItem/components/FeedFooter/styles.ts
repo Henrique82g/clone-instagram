@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  padding: 1.1rem 2.3rem;
   .view-count,
   .user-comment {
     line-height: 1.8rem;
