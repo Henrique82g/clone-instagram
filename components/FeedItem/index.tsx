@@ -2,7 +2,7 @@ import FeedFooter from './components/FeedFooter';
 import FeedHeader from './components/FeedHeader';
 import FeedImage from './components/FeedImage';
 
-import { Container } from './styles';
+import { Container, Divider } from './styles';
 
 function FeedItem() {
   return (
@@ -10,6 +10,7 @@ function FeedItem() {
       <FeedHeader />
       <FeedImage />
       <FeedFooter />
+      <Divider />
     </Container>
   );
 }
