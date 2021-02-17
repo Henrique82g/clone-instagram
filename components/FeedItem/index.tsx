@@ -1,5 +1,7 @@
+import { Container } from './styles';
+
 function FeedItem() {
-  return <span>Feed</span>;
+  return <Container></Container>;
 }
 
 export default FeedItem;
