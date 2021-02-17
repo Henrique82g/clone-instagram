@@ -1,4 +1,5 @@
 import FeedActions from '../FeedActions';
+import UserComment from '../UserComment';
 
 import { Container } from './styles';
 
@@ -12,6 +13,11 @@ function FeedFooter() {
         <span>Lorem ipsum dolor, sitde</span>
       </div>
       <span className="comment-count">View all 1,290 comments</span>
+
+      {[1, 2].map((item) => (
+        <UserComment key={`key-%${item}`} />
+      ))}
+
       <div>
         <span className="temp">1 hour ago </span>
       </div>
