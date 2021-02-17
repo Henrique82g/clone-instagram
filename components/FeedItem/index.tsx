@@ -1,9 +1,11 @@
+import FeedHeader from './components/FeedHeader';
+
 import { Container } from './styles';
 
 function FeedItem() {
   return (
     <Container>
-      <FeedItem />
+      <FeedHeader />
     </Container>
   );
 }
