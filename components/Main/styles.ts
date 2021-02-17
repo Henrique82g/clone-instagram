@@ -16,3 +16,5 @@ export const Container = styled.section`
   justify-content: center;
   position: relative;
 `;
+
+export const SubContainer = styled.div``;
