@@ -5,6 +5,9 @@ export const Wrapper = styled.div`
   height: 5.4rem;
   display: flex;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 2;
 
   background: var(--color-primary-light);
   border: 0.1rem solid var(--color-border);
