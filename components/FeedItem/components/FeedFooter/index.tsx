@@ -1,9 +1,11 @@
+import FeedActions from '../FeedActions';
+
 import { Container } from './styles';
 
 function FeedFooter() {
   return (
     <Container>
-      <span>footer</span>
+      <FeedActions />
     </Container>
   );
 }
