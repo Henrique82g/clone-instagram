@@ -14,6 +14,10 @@ export const Container = styled.section`
   grid-template-columns: 2fr 1fr;
   justify-content: center;
   position: relative;
+
+  @media (max-width: 980px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const SubContainer = styled.div``;
