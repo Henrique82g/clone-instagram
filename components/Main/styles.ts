@@ -8,10 +8,11 @@ export const Wrapper = styled.main`
 `;
 
 export const Container = styled.section`
-  max-width: 96.5rem;
+  max-width: 93.5rem;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 2fr 1fr;
+  justify-content: center;
   position: relative;
 `;
 
