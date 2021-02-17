@@ -1,14 +1,16 @@
 import UserInfo from './UserInfo';
 import FollowSuggestion from '../FollowSuggestion';
 
-import { Container } from './styles';
+import { Container, Wrapper } from './styles';
 
 const Sidebar: React.FC = () => {
   return (
-    <Container>
-      <UserInfo />
-      <FollowSuggestion />
-    </Container>
+    <Wrapper>
+      <Container>
+        <UserInfo />
+        <FollowSuggestion />
+      </Container>
+    </Wrapper>
   );
 };
 

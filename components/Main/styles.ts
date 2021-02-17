@@ -10,10 +10,8 @@ export const Wrapper = styled.main`
 export const Container = styled.section`
   max-width: 96.5rem;
   margin: 0 auto;
-  display: flex;
-  flex-flow: row nowrap;
-  width: 100%;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
   position: relative;
 `;
 
