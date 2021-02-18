@@ -12,6 +12,10 @@ export const Wrapper = styled.div`
   background: var(--color-primary-light);
   border: 0.1rem solid var(--color-border);
   margin-bottom: 3rem;
+
+  @media (max-width: 640px) {
+    margin-bottom: 0.1rem;
+  }
 `;
 
 export const Container = styled.div`
