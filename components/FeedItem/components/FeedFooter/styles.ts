@@ -49,4 +49,8 @@ export const Container = styled.div`
     letter-spacing: 0.2px;
     text-transform: uppercase;
   }
+
+  @media (max-width: 500px) {
+    padding: 1rem;
+  }
 `;

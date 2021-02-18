@@ -39,4 +39,8 @@ export const Container = styled.div`
     color: var(--color-dark);
     cursor: pointer;
   }
+
+  @media (max-width: 500px) {
+    padding: 1rem;
+  }
 `;
