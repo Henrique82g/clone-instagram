@@ -31,6 +31,10 @@ export const Container = styled.div`
     }
   }
 
+  @media (max-width: 400px) {
+    gap: 1.5rem;
+  }
+
   @media (max-width: 340px) {
     span:not(span:last-child) {
       display: none;

@@ -50,4 +50,9 @@ export const Container = styled.form`
 
     color: var(--color-text-blue);
   }
+
+  @media (max-width: 500px) {
+    display: none;
+    visibility: hidden;
+  }
 `;
