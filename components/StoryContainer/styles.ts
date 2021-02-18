@@ -14,4 +14,10 @@ export const Container = styled.div`
 
   background: var(--color-primary-light);
   border: 1px solid var(--color-border);
+
+  @media (max-width: 640px) {
+    width: 95vw;
+    overflow: hidden;
+    gap: 2rem;
+  }
 `;
