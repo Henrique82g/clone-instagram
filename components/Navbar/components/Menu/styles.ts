@@ -24,4 +24,17 @@ export const Container = styled.div`
       border-radius: 50%;
     }
   }
+
+  @media (max-width: 950px) {
+    span:last-child {
+      margin-right: 2rem;
+    }
+  }
+
+  @media (max-width: 340px) {
+    span:not(span:last-child) {
+      display: none;
+      visibility: hidden;
+    }
+  }
 `;

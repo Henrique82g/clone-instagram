@@ -24,4 +24,9 @@ export const Container = styled.div`
       margin-right: 1rem;
     }
   }
+
+  @media (max-width: 550px) {
+    display: none;
+    visibility: hidden;
+  }
 `;
